@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tokoh Tas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tokoh Tas</h1>
+    <p>Pilih tas favorit Anda dan lihat informasi lengkapnya!</p>
+  </header>
+
+  <main>
+    <div class="tas-gallery">
+      <div class="tas-item">
+        <img src="tas 1.jpeg" alt="Tas 1">
+        <button onclick="showInfo('Tas 1: Desain elegan untuk kebutuhan harian')">Lihat Detail</button>
+      </div>
+      <div class="tas-item">
+        <img src="tas 2.jpeg" alt="Tas 2">
+        <button onclick="showInfo('Tas 2: Tas sporty dengan banyak kompartemen')">Lihat Detail</button>
+      </div>
+      <div class="tas-item">
+        <img src="tas 3.jpeg" alt="Tas 3">
+        <button onclick="showInfo('Tas 3: Tas kasual dengan bahan tahan air')">Lihat Detail</button>
+      </div>
+    </div>
+
+    <div id="tas-info" class="info-box"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
